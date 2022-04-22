@@ -24,6 +24,7 @@ publishDir = "docs"
   description = "Sully Suleiman's Blog"
   keys = "sully suleiman, blog, devops engineer, sully squared, suleiman, software engineer, developer, palestinian"
   images = [""]
+  giscus = true
 
 
 [taxonomies]
