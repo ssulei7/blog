@@ -34,13 +34,12 @@ publishDir = "docs"
 
 [languages]
   [languages.en]
-    title = "Sully Squared"
-    subtitle = "A blog maintained by Sully Suleiman"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
+    [languages.en.params]
+      title = "Sully Squared"
+      subtitle = "A blog maintained by Sully Suleiman"
+      keywords = ""
+      copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+      readOtherPosts = "Read other posts"
       logoText = "$ cd home"
       logoHomeLink = "/"
     # or
@@ -62,10 +61,6 @@ publishDir = "docs"
 [[params.social]]
     name = "github"
     url = "https://github.com/ssulei7"
-
-[[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/_sullysquared"
 
 [[params.social]]
     name = "hackerrank"
